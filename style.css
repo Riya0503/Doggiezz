@@ -12,6 +12,20 @@ body{
 	
 }
 
+@media(max-width: 400px){
+	.pos{
+		height: 2500px;
+		position: relative;
+		bottom: 69px;
+	}
+	.polaroid {
+		height: 260px;
+	}
+	div a{
+		font-size: 0.9em;
+	}
+}
+
 @media(max-width: 600px){
 	.pos{
 	height: 1000px;
@@ -46,7 +60,6 @@ body{
 .pos{
 	height: 1200px;
 	max-width: 100%;
-	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
