@@ -1,5 +1,120 @@
+body{
+	padding: 0;
+	margin:0;
+}
+.filter-color{
+	background-color: rgba(0,0,0,0.5);
+}
+
 .n-logo{
 	
 	height: 110px;
 	
+}
+
+@media(max-width: 600px){
+	.pos{
+	height: 1000px;
+	max-width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.polaroid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  
+  float: left;
+  padding: 10px;	
+  width: 48%;
+  object-fit: cover;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 6.5px;
+}
+.imgs{
+	height: 170px;
+	width:240px;
+}
+
+}
+
+
+@media(min-width: 600px){
+.pos{
+	height: 1200px;
+	max-width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.polaroid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  
+  float: left;
+  padding: 10px;	
+  width: 490px;
+  height: 300px;
+  object-fit: cover;
+  background-color: white;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  margin: 6.5px;
+}
+.imgs{
+	height: 210px;
+	width:270px;
+}
+
+}
+
+@media(min-width: 1100px){
+	.pos{
+		height: 630px;
+		max-width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+
+.box {
+	width: 250px;
+	height: 90px;
+	text-align: center;
+	padding: 10px 30px;
+}
+
+a{
+	font-size: 1.2em;
+}
+
+li{
+	text-align: left;
+}
+li a{
+	font-size: 1.3em;
+	color: rgba(0,0,0,0.65);
+}
+.inspo_box{
+	position: relative;
+	bottom: 50px;
+}
+
+.inspo_box h4{	
+	left: 30px;
+
+}
+.inspo{
+	float: left;
+	position: relative;
+	bottom: 0px;
+	width: 100px;
+	border-radius: 70px;
+	box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
