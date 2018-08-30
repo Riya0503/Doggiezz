@@ -1,28 +1,14 @@
-body{
-	padding: 0;
-	margin:0;
-}
-.filter-color{
-	background-color: rgba(0,0,0,0.5);
-}
+body{padding: 0; margin:0;}
 
-.n-logo{
-	
-	height: 110px;
-	
-}
+.filter-color{background-color: rgba(0,0,0,0.5);}
+
+.n-logo{height: 110px;}
 
 div a:hover{text-decoration: none;}
 
-.sub_pos{
-	position: relative;
-	bottom: 20px;
-}
+.sub_pos{ position: relative; bottom: 20px;}
 
-.info-pos{
-	position: relative;
-	bottom: -40px;
-}
+.info-pos{ position: relative; bottom: -40px;}
 
 
 @media(max-width: 400px){
@@ -31,19 +17,14 @@ div a:hover{text-decoration: none;}
 		position: relative;
 		bottom: 69px;
 	}
-	.polaroid {
-		height: 260px;
-	}
-	div a{
-		font-size: 0.9em;
-	}
+	.polaroid {height: 260px;}
+	div a{font-size: 0.9em;}
 }
 
 @media(max-width: 600px){
 	.pos{
 	height: 1000px;
 	max-width: 100%;
-	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
