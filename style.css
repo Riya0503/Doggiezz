@@ -12,6 +12,19 @@ body{
 	
 }
 
+div a:hover{text-decoration: none;}
+
+.sub_pos{
+	position: relative;
+	bottom: 20px;
+}
+
+.info-pos{
+	position: relative;
+	bottom: -40px;
+}
+
+
 @media(max-width: 400px){
 	.pos{
 		height: 2500px;
@@ -39,14 +52,13 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-  
-  float: left;
-  padding: 10px;	
-  width: 48%;
-  object-fit: cover;
-  background-color: white;
-  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-  margin: 6.5px;
+	float: left;
+	padding: 10px;	
+	width: 48%;
+	object-fit: cover;
+	background-color: white;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+	margin: 6.5px;
 }
 .imgs{
 	height: 170px;
@@ -78,6 +90,10 @@ body{
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   margin: 6.5px;
 }
+
+.polaroid{
+	margin: 10px;
+}
 .imgs{
 	height: 210px;
 	width:270px;
@@ -93,6 +109,12 @@ body{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+
+	.carousel_size{
+		max-width: 800px;
+		max-height: 600px;
+		margin: 30px 160px;
+	}	
 }
 
 
